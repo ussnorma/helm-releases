@@ -3,7 +3,7 @@ entries:
   jenkins-helm:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-03-10T19:14:54.84933581Z"
+    created: "2024-04-04T17:45:54.081691093Z"
     description: A Helm chart for Kubernetes
     digest: bdd7057c934b3235323fd61afcd4c0d54269633c0cebb610d7bcfae89ffce70a
     name: jenkins-helm
@@ -11,4 +11,24 @@ entries:
     urls:
     - https://ussnorma.github.io/helm-releases/jenkins-helm-0.1.0.tgz
     version: 0.1.0
-generated: "2024-03-10T19:14:54.84855533Z"
+  nfs-subdir-external-provisioner:
+  - apiVersion: v1
+    appVersion: 4.0.2
+    created: "2024-04-04T17:45:54.082783542Z"
+    description: nfs-subdir-external-provisioner is an automatic provisioner that
+      used your *already configured* NFS server, automatically creating Persistent
+      Volumes.
+    digest: c5a2d967196b972b47de93d2e2cf385780f545b9f4907904260eb17e51081599
+    home: https://github.com/kubernetes-sigs/nfs-subdir-external-provisioner
+    keywords:
+    - nfs
+    - storage
+    - provisioner
+    kubeVersion: '>=1.9.0-0'
+    name: nfs-subdir-external-provisioner
+    sources:
+    - https://github.com/kubernetes-sigs/nfs-subdir-external-provisioner
+    urls:
+    - https://ussnorma.github.io/helm-releases/nfs-subdir-external-provisioner-4.0.18.tgz
+    version: 4.0.18
+generated: "2024-04-04T17:45:54.080248993Z"
